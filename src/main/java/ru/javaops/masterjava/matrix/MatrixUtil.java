@@ -57,18 +57,14 @@ public class MatrixUtil {
             }));
         }
 
-        for (int i = 0; i < matrixSize; ) {
-            Future<MultiplyResult> future = completionService.poll();
-            if (future != null) {
-                MultiplyResult multiplyResult = future.get();
+        for (int i = 0; i < matrixSize; i++) {
+            MultiplyResult multiplyResult = completionService.take().get();
 
-                int col = multiplyResult.colNumber;
-                int length = multiplyResult.elements.length;
-                int elements[] = multiplyResult.elements;
-                for (int j = 0; j < length; j++) {
-                    matrixC[j][col] = elements[j];
-                }
-                i++;
+            int col = multiplyResult.colNumber;
+            int length = multiplyResult.elements.length;
+            int elements[] = multiplyResult.elements;
+            for (int j = 0; j < length; j++) {
+                matrixC[j][col] = elements[j];
             }
         }
 
