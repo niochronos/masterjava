@@ -22,5 +22,10 @@
             <artifactId>common</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.j2html</groupId>
+            <artifactId>j2html</artifactId>
+            <version>RELEASE</version>
+        </dependency>
     </dependencies>
 </project>
