@@ -14,6 +14,10 @@
     <modules>
         <module>import</module>
         <module>common</module>
+        <module>webapp</module>
+        <module>mail-service</module>
+        <module>mail-api</module>
+        <module>test</module>
 <!--
         <module>webapp</module>
         <module>mail-service</module>

@@ -6,21 +6,18 @@
 
     <parent>
         <groupId>ru.javaops</groupId>
-        <artifactId>parent-web</artifactId>
-        <relativePath>../parent-web/pom.xml</relativePath>
+        <artifactId>parent</artifactId>
+        <relativePath>../parent/pom.xml</relativePath>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>export</artifactId>
+    <groupId>ru.javaops</groupId>
+    <artifactId>test</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
-    <name>Export</name>
+    <packaging>jar</packaging>
+    <name>Test</name>
 
     <dependencies>
-        <dependency>
-            <groupId>ru.javaops</groupId>
-            <artifactId>common</artifactId>
-            <version>${project.version}</version>
-        </dependency>
     </dependencies>
+
 </project>
