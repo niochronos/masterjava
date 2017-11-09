@@ -12,7 +12,7 @@
     <url>https://github.com/JavaOPs/masterjava</url>
 
     <modules>
-        <module>import</module>
+        <module>upload</module>
         <module>common</module>
 <!--
         <module>webapp</module>
