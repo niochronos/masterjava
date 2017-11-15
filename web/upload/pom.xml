@@ -17,7 +17,7 @@
     <name>Upload</name>
 
     <build>
-        <finalName>import</finalName>
+        <finalName>upload</finalName>
     </build>
 
     <dependencies>
