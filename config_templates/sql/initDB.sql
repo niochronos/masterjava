@@ -12,3 +12,5 @@ CREATE TABLE users (
   email     TEXT NOT NULL,
   flag      user_flag NOT NULL
 );
+
+CREATE UNIQUE INDEX email_idx ON users (email);
