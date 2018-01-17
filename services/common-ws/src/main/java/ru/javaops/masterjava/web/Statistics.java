@@ -1,4 +1,4 @@
-package ru.javaops.web;
+package ru.javaops.masterjava.web;
 
 import lombok.extern.slf4j.Slf4j;
 
